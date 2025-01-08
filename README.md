@@ -7,5 +7,5 @@ In an effort to put the knowledge I had learned from the [fast.ai course](https:
 - Dropout layers added to the bottleneck residual blocks according to [this](https://doi.org/10.48550/arXiv.2302.06112) paper.
 - RAdam optimizer used, along with decoupled weight decay regularization found in the AdamW optimizer.
 - Learning rate scheduled using 2 cycles of the CosineAnnealingLR scheduler described in [this](https://doi.org/10.48550/arXiv.1608.03983) paper
-- Max Norm weight constraint on convolutions attempted but resulted in underfitting. Used l2 regularization with a large lambda instead.
+- Max Norm weight constraint on convolutions attempted but resulted in underfitting. Used L2 regularization with a large lambda instead.
 - Final accuracy of 79.74%
